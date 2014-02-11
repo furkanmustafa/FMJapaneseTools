@@ -19,15 +19,15 @@ Note: This project **doesn't** use arc. You'll need `-fno-objc-arc` for `FMJapan
 #import "FMJapaneseTools.h"
 
 // ..
-		NSString* romajiTest = @"kore ha tesuto purojekuto desuyo.";
-		NSString* kanaTest = @"そう　デスよ!";
+NSString* romajiTest = @"kore ha tesuto purojekuto desuyo.";
+NSString* kanaTest = @"そう　デスよ!";
 
-		NSLog(@" \t %@", [romajiTest japaneseStringConvertedToKatakana]);
-		NSLog(@" \t %@", [romajiTest japaneseStringConvertedToHiragana]);
-		NSLog(@" \t ---- ");
-		NSLog(@" \t %@", [kanaTest japaneseStringConvertedToRomaji]);
-		NSLog(@" \t %@", [kanaTest japaneseStringConvertedToKatakana]);
-		NSLog(@" \t %@", [kanaTest japaneseStringConvertedToHiragana]);
+NSLog(@" \t %@", [romajiTest japaneseStringConvertedToKatakana]);
+NSLog(@" \t %@", [romajiTest japaneseStringConvertedToHiragana]);
+NSLog(@" \t ---- ");
+NSLog(@" \t %@", [kanaTest japaneseStringConvertedToRomaji]);
+NSLog(@" \t %@", [kanaTest japaneseStringConvertedToKatakana]);
+NSLog(@" \t %@", [kanaTest japaneseStringConvertedToHiragana]);
 
 ```
 
